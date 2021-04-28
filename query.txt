@@ -34,6 +34,7 @@ SELECT *
 FROM `pagamenti` 
 WHERE `status` = 'ACCEPTED'
 ORDER BY `price` DESC
+LIMIT 1
 
 7) Seleziona gli ospiti riconosciuti con patente e nati nel 1975
 
